@@ -11,7 +11,7 @@ int main() {
         cin>>arr[i];
     }
     int min=arr[0],minIndex=0;
-    for(int i=1;i<n;i++){
+    for(int i=1;i<n;i++){          // I used i=1 cause if i did i=0 then it will check arr[0]<arr[0] which is always false, so its just a waste of time...
         if(arr[i]<min){
             min=arr[i];
             minIndex=i;
