@@ -13,6 +13,7 @@ int main() {
     int k;
     cout<<"How many elements u want to rotate in left: ";
     cin>>k;
+    k%=n;
     for(int j=1;j<=k;j++){
         int temp=arr[0];
         for(int i=1;i<n;i++){
